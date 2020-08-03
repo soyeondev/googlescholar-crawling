@@ -23,6 +23,11 @@ dependencies {
 	compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-1'
     
+    //excel-xls
+	compile 'org.apache.poi:poi:3.17'
+	//excel-xlsx
+	compile 'org.apache.poi:poi-ooxml:3.17'
+    
 }
 
 test {
